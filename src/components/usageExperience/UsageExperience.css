@@ -1,0 +1,93 @@
+.usage-experience {
+    min-height: 100vh;
+}
+
+.usage-experience .text h4 {
+    color: var(--title-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.usage-experience .text p {
+    font-size: 17px;
+}
+
+.usage-experience ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.usage-experience ul li .icon {
+    padding: 8px;
+    margin-left: 15px;
+}
+
+.usage-experience ul li .icon svg {
+    font-size: 35px;
+    color: var(--main-color);
+}
+
+.usage-experience ul li .text {
+    max-width: 80%;
+}
+
+.usage-experience ul li .text h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.usage-experience ul li .text p {
+    font-size: 14px;
+}
+
+.usage-experience .img {
+    width: 80%;
+    position: relative;
+}
+
+.usage-experience .img::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    z-index: -1;
+}
+
+.usage-experience .img::after {
+    content: '';
+    background: url(../../images/waves.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100px;
+    z-index: -1;
+    animation: animation-wave 10s linear infinite;
+}
+
+.usage-experience .img-2::after {
+    right: unset;
+    left: 0%;
+}
+
+@keyframes animation-wave{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.usage-experience .img img {
+    width: 100%;
+}

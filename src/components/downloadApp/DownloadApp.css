@@ -1,0 +1,23 @@
+.download-app{
+    min-height: 100vh;
+}
+
+
+.download-app .text h3{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.download-app .text p{
+    font-size: 1.1rem;
+    margin: 15px 0;
+}
+
+.download-app .img{
+    width: 75%;
+}
+
+.download-app .img img{
+    width: 100%;
+}

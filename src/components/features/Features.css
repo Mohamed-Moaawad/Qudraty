@@ -1,0 +1,30 @@
+.features {
+    min-height: 100vh;
+}
+
+.features .feature-cards {
+
+}
+
+.features .feature-cards .feature-card {
+    /* background-color: var(--white-color); */
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 8px #9999997a;
+}
+
+.features .feature-cards .feature-card .icon{
+    width: 60px;
+    height: 60px;
+    background-color: #888888;
+    position: relative;
+}
+
+.features .feature-cards .feature-card h5{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.features .feature-cards .feature-card p{
+    height: 80px;
+    margin-top: 15px;
+}
