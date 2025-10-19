@@ -31,16 +31,16 @@ const Header = () => {
                                 <a href="/#">الرئيسية</a>
                             </li>
                             <li>
-                                <a href="#features">المميزات</a>
+                                <a href="/#features">المميزات</a>
                             </li>
                             <li>
-                                <a href="#usage-experience">تجربه الاستخدام</a>
+                                <a href="/#usage-experience">تجربه الاستخدام</a>
                             </li>
                             <li>
-                                <a href="#app-steps">كيف يعمل</a>
+                                <a href="/#app-steps">كيف يعمل</a>
                             </li>
                             <li>
-                                <a href="#testimonials">آراء العملاء</a>
+                                <a href="/#testimonials">آراء العملاء</a>
                             </li>
                         </ul>
                     </nav>
