@@ -1,14 +1,19 @@
 import './Footer.css';
+import Link from 'next/link';
 import Image from 'next/image';
 import Container from '../ui/Container';
-import logo from '../../images/logo.png';
-import qrCode from '../../images/QR Code.png';
-import { FaFacebookF, FaInstagram, FaTiktok  } from "react-icons/fa";
+
 import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+
+import qrCode from '../../images/QR Code.png';
+import logo from '../../images/logo.png';
+import logo_CodeCept from '../../images/CodeCept.png';
+
 
 const Footer = () => {
     return (
-        <footer className='py-32'>
+        <footer className='pt-32 pb-16'>
             <Container>
                 <div className="flex flex-wrap">
                     <div className="w-full md:w-6/12 lg:w-3/12 mb-8">
@@ -57,6 +62,18 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className="copyright">
+                    <p>© جميع الحقوق محفوظة، قدراتي | تنفيذ <a href="https://www.facebook.com/profile.php?id=61571997906792" target="_blank" rel="noopener">فريق CodeCept</a></p>
+                    <ul>
+                        <li>
+                            <Link href={'/privacy'}>سياسة الخصوصية</Link>
+                        </li>
+                        <li>
+                            <Link href={'/terms'}>شروط والأحكام</Link>
+                        </li>
+                    </ul>
+                    <a href="https://www.facebook.com/profile.php?id=61571997906792" target='_blank'><Image src={logo_CodeCept} alt='CodeCept_Logo' /></a>
                 </div>
             </Container>
         </footer>
