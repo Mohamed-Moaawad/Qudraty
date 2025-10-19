@@ -28,7 +28,7 @@ const Header = () => {
                         </div>
                         <ul>
                             <li>
-                                <a href="#">الرئيسية</a>
+                                <a href="/#">الرئيسية</a>
                             </li>
                             <li>
                                 <a href="#features">المميزات</a>
